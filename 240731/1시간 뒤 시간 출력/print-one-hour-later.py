@@ -1,5 +1,5 @@
 a = input()
 ar = a.split(":")
-h = int(arr[0])
-m = int(arr[1])
+h = int(ar[0])
+m = int(ar[1])
 print(f"{h+1}:{m}")
