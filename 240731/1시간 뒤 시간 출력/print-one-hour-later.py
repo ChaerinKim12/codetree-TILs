@@ -1,1 +1,5 @@
-print("2:59")
+a = input()
+ar = inp.split(":")
+h = int(arr[0])
+m = int(arr[1])
+print(f"{h+1}:{m}")
