@@ -1,5 +1,5 @@
-n = int(input())
+a = int(input())
 i = 0
-while i < 5:
+while i < a:
     i += 1
     print("*")
