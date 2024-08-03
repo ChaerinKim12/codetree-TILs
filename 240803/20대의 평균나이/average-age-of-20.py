@@ -1,10 +1,12 @@
 hap = 0
 cnt = 0
-while True:
-    age = int(input())
-    if age >= 30:
+
+while True :
+    n = int(input())
+
+    if n // 10 % 10 != 2 : 
         break
-    hap += age
+    hap += n
     cnt += 1
-avg = hap / cnt
-print(f"{avg:.2f}")
+
+print(f"{hap/cnt:.2f}")
