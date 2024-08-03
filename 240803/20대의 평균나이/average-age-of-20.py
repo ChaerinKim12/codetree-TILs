@@ -5,7 +5,7 @@ while True:
    
     if age >= 30:
         break
-    hap += age
-    cnt += 1
+        hap += age
+        cnt += 1
 avg = hap / cnt
 print(f"{avg:.2f}")
