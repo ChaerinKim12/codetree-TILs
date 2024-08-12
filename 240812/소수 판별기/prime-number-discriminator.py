@@ -1,8 +1,8 @@
 n = int(input())
-satisfied = False
+satisfied = True
 for i in range(1, n+1):
     if i % 1 == 0 and i % n == 0:
-        satisfied = True
+        satisfied = False
 if satisfied == True:
     print("P")
 else:
