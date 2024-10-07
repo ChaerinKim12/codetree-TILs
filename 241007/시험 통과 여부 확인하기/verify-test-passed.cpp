@@ -6,10 +6,9 @@ int main() {
     int score;
     cin >> score;
     int n;
-    n = 80 - score;
     if (score >= 80)
         cout << "pass" << endl;
     else
-        cout << n << "more score" << endl;
+        cout << 80-score << "more score" << endl;
     return 0;
 }
