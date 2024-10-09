@@ -12,6 +12,6 @@ int main() {
     if (a%5==0)
     cout << "Yes";
     else
-    cout << "no"
+    cout << "no";
     return 0;
 }
