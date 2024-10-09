@@ -8,6 +8,6 @@ int main() {
     if ((a>=10) && (a<=20))
     cout << "yes";
     else
-    cout << "no"
+    cout << "no";
     return 0;
 }
